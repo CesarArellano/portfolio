@@ -4,6 +4,9 @@ html, body{
   width: 100%;
   height: 100%;
 }
+body{
+  overflow-x: hidden;
+}
 .espacio{
   margin-left: 8%;
 }
@@ -24,3 +27,19 @@ nav{
 #space{
   margin-top: 10px;
 }
+/*#particles{
+  width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	position: absolute;
+	background:  rgb(34, 77, 170); // color fondo de las particulas
+}*/
+
+#particles {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  //background-image: url('http://www.empresarius.com/wp-content/uploads/2017/03/tienda-online-sabadell.jpg');
+  bottom: 0;
+  overflow-x: hidden;
+ }

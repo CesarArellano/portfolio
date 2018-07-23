@@ -43,3 +43,6 @@ nav{
   bottom: 0;
   overflow-x: hidden;
  }
+.tarjeta{
+  align-items: center;
+}
